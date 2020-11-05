@@ -5,6 +5,7 @@
 library(extrafont)
 
 font_import()
+#font_import(pattern = 'wmanimals2') #fails, just import all again! windows case insensitivity may be to blame
 # This tries to autodetect the directory containing the TrueType fonts.
 # If it fails on your system, please let me know.
 

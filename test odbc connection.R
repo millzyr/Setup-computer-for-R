@@ -48,6 +48,14 @@ data <- dbReadTable(dcon, "CommodityPrices") #now works
 data <- as.tbl(dbGetQuery(dcon, "SELECT * from MainTables"))            #works
 data <- as.tbl(dbGetQuery(dcon, "SELECT * from AverageCompanyPayouts")) #now works
 
+# These errors will occur if you do not have access to the server SNSVSQL01. In this case email Lee.
+# > data <- dbReadTable(dcon, "CommodityPrices") #now works
+# Error: nanodbc/nanodbc.cpp:1617: HY000: [Microsoft][ODBC Microsoft Access Driver] ODBC--connection to 'DIDC' failed. 
+# <SQL> 'SELECT * FROM `CommodityPrices`'
+# > data <- as.tbl(dbGetQuery(dcon, "SELECT * from AverageCompanyPayouts")) #now works
+# Error: nanodbc/nanodbc.cpp:1617: HY000: [Microsoft][ODBC Microsoft Access Driver] ODBC--connection to 'DIDC' failed. 
+# <SQL> 'SELECT * from AverageCompanyPayouts'
+
 #list available tables
 dbTables <- dbListTables(dcon)
 dbTablesSubset <- dbTables[1:42]
