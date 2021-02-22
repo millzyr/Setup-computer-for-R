@@ -1,0 +1,19 @@
+{
+    "show_margin": false,
+    "auto_append_newline": true,
+    "highlight_r_function_calls": true,
+    "save_files_before_build": true,
+    "default_project_location": "~",
+    "spelling_dictionary_language": "en_AU",
+    "document_author": "me",
+    "wrap_tab_navigation": false,
+    "console_double_click_select": true,
+    "save_workspace": "never",
+    "always_save_history": false,
+    "reuse_sessions_for_project_links": true,
+    "windows_terminal_shell": "win-git-bash",
+    "jobs_tab_visibility": "shown",
+    "load_workspace": false,
+    "initial_working_directory": "~",
+    "rainbow_parentheses": true
+}
