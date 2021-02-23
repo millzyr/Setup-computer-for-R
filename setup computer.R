@@ -5,6 +5,7 @@
 #Never save workspace or history (see screenshot of settings)
 #"Setup computer for R - RStudio Rstudio settings  R_projects_.png"
 #NB We have made a script that copies sensible recommended defaults automagically
+# https://docs.rstudio.com/ide/desktop-pro/latest/settings.html#preferences
 
 username <- Sys.getenv('username')
 appdata <- Sys.getenv('appdata')
